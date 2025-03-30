@@ -1,7 +1,7 @@
 import TaskListCondensed from "@/components/TaskListCondensed";
 import { Text, View } from "react-native";
 
-export default function Index() {
+export default function Tasks() {
   return (
     <View
       style={{
@@ -10,8 +10,7 @@ export default function Index() {
         backgroundColor: '#25292e',
       }}
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
-      <TaskListCondensed />
+      <Text>Tasks Page</Text>
     </View>
   );
 }
