@@ -39,7 +39,7 @@ export default function TabLayout() {
                 options={{
                     title: 'Info',
                     tabBarIcon: ({ color, focused }) => (
-                      <Ionicons name={'book'} color={color} size={24}/>
+                      <Ionicons name={focused ? 'book-sharp' : 'book-outline'} color={color} size={24}/>
                     ),
                 }}
             />

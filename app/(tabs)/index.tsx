@@ -10,7 +10,6 @@ export default function Index() {
         backgroundColor: '#25292e',
       }}
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
       <TaskListCondensed />
     </View>
   );
